@@ -50,7 +50,6 @@ function App() {
      </Container>
      <AddBudgets show={showAddBudgetModal} handleClose={()=>setShowAddBudgetModal(false)}/>
      <AddExpense show={showAddExpenseModal} handleClose={()=>setShowAddExpenseModal(false)}/>
-
     </div>
   );
 }
