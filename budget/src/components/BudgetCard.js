@@ -14,9 +14,9 @@ function getProgressBarVariant(amount, max){
 const backgroundColor=[]
 
 if(amount>max){
-  backgroundColor.push("bg-danger", "bg-opacity-10")
+  backgroundColor.push("bg-danger", "bg-opacity-10", "mt-4")
 }else{
-  backgroundColor.push("bg-light")
+  backgroundColor.push("bg-light", "mt-4")
 }
 
   return (
@@ -38,8 +38,8 @@ if(amount>max){
           
         />
         <Stack direction='horizontal' gap={2} className="mt-4">
-        <Button className='ms-auto' variant='primary'>sdasdkasd</Button>
-        <Button variant='outline-secondary'>sdasdkasd</Button>
+        <Button className='ms-auto' variant='primary'>Add Expense</Button>
+        <Button variant='outline-secondary'>View</Button>
         </Stack>
       </Card.Body>
     </Card>
